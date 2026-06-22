@@ -1,0 +1,14 @@
+/* CSS by Dylan Watson */
+/* Color Palette:
+   #F2EFF5 - Off-white
+   #3F5758 - Teal
+   #A8BEBD- Light teal
+   #646767 - Gray 
+   #0E0E0F - Black
+   #2F4142 - Dark teal
+    */
+
+    /* Global (base) MOBILE FIRST */
+    body {
+        background-color:#A8BEBD;
+    }
