@@ -10,20 +10,55 @@
 
     /* Global (base) MOBILE FIRST */
     body {
-        background-color:#A8BEBD;
+        background-color:#F2EFF5;
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     header {
-        background-color:#3F5758;
+        background-color:#2F4142;
         color:#F2EFF5;
         font-size:2em;
         text-align:center;
         padding:1em;
-        font-family: cursive;
-        text-decoration: underline;
     }
+
     h1 {
         font-size:2.5em;
         margin:0;
         text-shadow: 2px 2px #646767;
+    }
+
+    nav ul {
+        display:flex;
+        justify-content:space-evenly;
+        list-style-type:none;
+        background-color:#0E0E0F;
+        padding:2rem;
+    }
+    nav a {
+        text-decoration:none;
+        font-family: cursive;
+        color:#2f4142;
+        background-color:#a8bebd;
+        border-radius:5px;
+        font-size:1.5rem;
+        padding:1rem 2em;
+        margin:1rem;
+    }
+
+    footer {
+        background-color:#3F5758;
+        color:#F2EFF5;
+        text-align:center;
+        padding:1em;
+        font-family: cursive;
+    }
+    
+    h2 {
+        font-size:2em;
+        text-align:center;
+        color:#0E0E0F;
+        text-decoration:underline;
     }
